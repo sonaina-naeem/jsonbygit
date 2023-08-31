@@ -1,0 +1,42 @@
+[
+    {
+        "id ":1,
+        "name":"infinix",
+        "price":"45000",
+        "dis":" publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying ",
+        "model":"abc 11",
+        "images":"images/i1.jpg"
+    
+
+        
+
+    }
+,
+    {
+        "id ":2,
+        "name":"infinix",
+        "price":"45000",
+        "dis":" publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying ",
+        "model":"abc 11",
+        "images":"images/i2.jpg"
+    
+
+        
+
+    }
+    {
+        "id ":3,
+        "name":"infinix",
+        "price":"45000",
+        "dis":" publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying ",
+        "model":"abc 11",
+        "images":"images/i3.jpg"
+    
+
+        
+
+    }
+
+    
+
+]

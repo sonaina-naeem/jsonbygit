@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url:"data.json",
+                type:"get",
+                success:function(data){
+                    let x="";
+                    $.each(data,function(index,value){
+                        x+=`
+                        <div class="col-log-3 mt-3">
+                            <div class="card">
+                                <img src="${value.image}"class="cad-img-top"alt="....">
+                                <div class="card-body">
+                                    <h5 class="card-title">${value.name}</h5>
+                                    <p class="card-title">${value.model}</p>
+                                    <p class="card-text">${value.price}</p>
+                                    <a href="#"class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                    </div>
+                                    `
+                        
+                    })
+                    $("#demo").html(x);
+                }
+            })
+        })
+        
+    </script>
+</body>
+</html>
